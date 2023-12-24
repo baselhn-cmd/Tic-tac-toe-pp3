@@ -26,3 +26,24 @@ class Player:
                 self.symbol = symbol.upper()
                 break
             print("Invalid symbol. Try again.")
+
+
+# Menu class for displaying menus
+class Menu:
+    """
+    Start the game with choice quit
+    """
+    def display_main_menu(self):
+        print("Welcome to my Tic-Tac-Toe game!")
+        print("1. Start a new game")
+        print("2. Quit")
+        choice = input("Enter your choice (1 or 2): ")
+        return choice
+
+    """
+    Choice for the Game
+    """
+
+    def display_endgame_menu(self):
+        choice = input("Game Over!\n1. Play again\n2. Quit\nEnter your choice (1 or 2): ")
+        return choice
