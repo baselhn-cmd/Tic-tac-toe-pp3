@@ -99,7 +99,11 @@ class Game:
                     break
     
     def restart_game(self):
-       pass
+        sefl.board.reset.board()
+        self.current_player_indix = 0
+        self.play_game()
+
+       
 
     def check_win(self):
         pass
@@ -119,6 +123,9 @@ class Game:
             except ValueError:
                 print("Invalid move. Try again.")
         self.switch_player()
+    
+    def switch_player(self):
+        self.current_player_indix = 1 - self.current_player_indix
 
 
     
