@@ -45,12 +45,17 @@ class Board:
     
 
     def display_board(self):
-        for i range(0, 9, 3):
+        for i in range(0, 9, 3):
             print("|".join(self.board[i:i + 3]))
             if i < 6:
-                print("-" * 5)
+                print("-"*5)
 
-    def update_board()
+    def update_board(self, choice, symbol):
+        
+
+
+    
+
 
     
     
