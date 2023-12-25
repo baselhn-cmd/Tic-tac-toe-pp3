@@ -98,7 +98,15 @@ class Game:
                     self.quit_game()
                     break
     
-    def restart_game()
+    def restart_game(self):
+       pass
+
+    def check_win(self):
+        pass
+    def check_draw(self):
+        pass
+    def play_turn(self):
+        
 
     
 
