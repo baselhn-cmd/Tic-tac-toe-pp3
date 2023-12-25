@@ -106,7 +106,19 @@ class Game:
        
 
     def check_win(self):
-        pass
+        win_combinations = [
+            [0, 1, 2], [3, 4, 5], [6, 7, 8],  # horizontal
+            [0, 3, 6], [1, 4, 7], [2, 5, 8],  # vertical
+            [0, 4, 8], [2, 4, 6]  # diagonal
+        ]
+        for combination in win_combinations_
+        if self.board.board[combination[0]] == self.board.board[combination[1]] == \
+                self.board.board[combination[2]] != "":
+                print(f"{self.players[self.current_player_index].name} wins!")
+                return True
+        return False
+
+       
     def check_draw(self):
         pass
     def play_turn(self):
