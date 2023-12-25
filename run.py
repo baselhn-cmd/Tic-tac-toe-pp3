@@ -106,7 +106,20 @@ class Game:
     def check_draw(self):
         pass
     def play_turn(self):
-        
+        player = self.player[self.current_player_indix]
+        seld.board.display_board()
+        print(f"{player.name}, choose your move: ({player.symbol})")
+        while True:
+            try:
+                cell_choice = int(input("Enter your choice (1-9": ))
+                if 1 <= cell_choice <= 9 and self.board.update_board(cell_choice, player.symbol):
+                    break
+                else:
+                    print("Invalid move. Try agin.")
+            except ValueError:
+                print("Invalid move. Try again.")
+        self.switch_player()
+
 
     
 
