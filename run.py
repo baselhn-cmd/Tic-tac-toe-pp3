@@ -1,3 +1,5 @@
+import os
+def clear_screen('cls' if os.name == 'nt' else 'clear')
 
 class Player:
     def __init(self):
