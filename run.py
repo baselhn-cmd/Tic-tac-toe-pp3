@@ -87,6 +87,17 @@ class Game:
             player.choose_symbol()
             clear_screen()
 
+    def play_game(self):
+        while True:
+            self.play_turn()
+            if self.check_win() or self.check_draw():
+                choice = self.menu.display_endgame_menu()
+                if choice == "1":
+                    self.restart_game()
+                else:
+                    self.quit_game()
+                    break
+
     
 
 
