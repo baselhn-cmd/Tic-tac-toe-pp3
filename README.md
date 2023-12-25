@@ -2,15 +2,17 @@
 
 Welcome to my simple implementation of the Tic-Tac-Toe game in Python!
 
+[Link to live site](https://tic-pp3-5d5ce1a76eff.herokuapp.com/)
+
+![Responsive mock-up]()
+
 ## Index - Table of Contents
 
 - [Planning](#planning)
 
 - [Design](#design)
 
-- [UX](#ux)
-    - [Programm Goals](#programm-goals)
-    - [User Stories](#user-stories)
+  - [User Stories](#user-stories)
 
 - [Features](#features)
     - [Existing Features](#existing-features)
