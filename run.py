@@ -145,6 +145,9 @@ class Game:
     def switch_player(self):
         self.current_player_indix = 1 - self.current_player_indix
 
+    def quit_game(self):
+        print("Thanks for playing")
+
 
     
 
