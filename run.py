@@ -69,6 +69,15 @@ class Game:
         self.menu = Menu
         self.current_player_indix = 0  
 
+    def start_game(self):
+        choice = self.menu.display_main_menu()
+        if choice == "1":
+            self.setup_players()
+            self.play_game()
+        else:
+            self.quit_game()
+    
+
 
 
     
