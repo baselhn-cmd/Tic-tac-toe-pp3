@@ -50,8 +50,8 @@ class Board:
             if i < 6:
                 print("-" * 5)
 
-def update_board(self, choice, symbol):
-    if self.is_valid_move(choice):
-        self.board[choice - 1] = symbol
-        return True
-    return False
+    def update_board()
+
+    
+    
+
