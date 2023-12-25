@@ -76,6 +76,9 @@ class Game:
             self.play_game()
         else:
             self.quit_game()
+
+    def setup_players(self):
+        
     
 
 
