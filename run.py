@@ -61,7 +61,13 @@ class Board:
 
     def reset_board(self):
         self.board = [str(i) for i in range(1, 10)]
-        
+
+class Game:
+    def __init__(self):
+        self.Players = [Player(), player()]
+        self.board = Board()
+        self.menu = Menu
+        self.current_player_indix = 0  
 
 
 
