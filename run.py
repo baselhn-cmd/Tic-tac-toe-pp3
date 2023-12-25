@@ -1,3 +1,4 @@
+
 class Player:
     def __init(self):
         self.name = ""
@@ -78,7 +79,12 @@ class Game:
             self.quit_game()
 
     def setup_players(self):
-        
+        for number, player in enumerate(self.player, start=1):
+            print(f"Player {number}, enter your details:")
+            player.choose_name()
+            player.choose_symbol()
+            clear_screen()
+
     
 
 
