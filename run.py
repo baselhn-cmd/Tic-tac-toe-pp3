@@ -51,7 +51,11 @@ class Board:
                 print("-"*5)
 
     def update_board(self, choice, symbol):
-        
+        if self
+
+    def is_valid_move(self,choice)
+       return self.board[choice - 1].isdigit()
+
 
 
     
