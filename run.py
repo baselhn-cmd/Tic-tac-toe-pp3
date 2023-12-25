@@ -97,6 +97,8 @@ class Game:
                 else:
                     self.quit_game()
                     break
+    
+    def restart_game()
 
     
 
