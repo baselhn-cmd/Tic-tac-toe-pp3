@@ -99,7 +99,7 @@ class Game:
                     break
     
     def restart_game(self):
-        sefl.board.reset.board()
+        self.board.reset.board()
         self.current_player_indix = 0
         self.play_game()
 
