@@ -1,5 +1,5 @@
 import os
-def clear_screen('cls' if os.name == 'nt' else 'clear')
+    def clear_screen('cls' if os.name == 'nt' else 'clear')
 
 class Player:
     def __init(self):
@@ -8,7 +8,7 @@ class Player:
 
     def choose_name(self):
         while True:
-            name = input("Enter your name (letters only): ")
+            name = input("Enter your name (letters only): \n")
             if name.isalpha():
                 self.name = name
                 break
@@ -16,7 +16,7 @@ class Player:
 
     def choose_symbol(self):
         while True:
-            symbol = input(f"{self.name}, choose your symbol (letters only): ")
+            symbol = input(f"{self.name}, choose your symbol (letters only): \n")
             if symbol.isalpha() and len(symbol) == 1:
                 self.symbol = symbol.upper()
                 break
