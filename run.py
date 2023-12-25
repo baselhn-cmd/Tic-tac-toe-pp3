@@ -1,10 +1,3 @@
-import os
-"""
-Function to clear the console screen
-"""
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
 class Player:
     def __init(self):
         self.name = ""
@@ -18,7 +11,6 @@ class Player:
                 break
             print("Invalid name. Try again.")
 
-
     def choose_symbol(self):
         while True:
             symbol = input(f"{self.name}, choose your symbol (letters only): ")
@@ -26,13 +18,8 @@ class Player:
                 self.symbol = symbol.upper()
                 break
             print("Invalid symbol. Try again.")
-
-
 # Menu class for displaying menus
 class Menu:
-    """
-    Start the game with choice quit
-    """
     def display_main_menu(self):
         print("Welcome to my Tic-Tac-Toe game!")
         print("1. Start a new game")
@@ -47,3 +34,24 @@ class Menu:
     def display_endgame_menu(self):
         choice = input("Game Over!\n1. Play again\n2. Quit\nEnter your choice (1 or 2): ")
         return choice
+
+
+class Board:
+    """
+    Board class for managing the game board
+    """
+    def __init__(self):
+        self.board = [str(i) for i in range(1, 10)]
+    
+
+    def display_board(self):
+        for i range(0, 9, 3):
+            print("|".join(self.board[i:i + 3]))
+            if i < 6:
+                print("-" * 5)
+
+def update_board(self, choice, symbol):
+    if self.is_valid_move(choice):
+        self.board[choice - 1] = symbol
+        return True
+    return False
