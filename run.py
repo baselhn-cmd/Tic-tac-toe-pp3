@@ -112,7 +112,7 @@ class Game:
             [0, 4, 8], [2, 4, 6]  # diagonal
         ]
         for combination in win_combinations_
-        if self.board.board[combination[0]] == self.board.board[combination[1]] == \
+            if self.board.board[combination[0]] == self.board.board[combination[1]] == \
                 self.board.board[combination[2]] != "":
                 print(f"{self.players[self.current_player_index].name} wins!")
                 return True
