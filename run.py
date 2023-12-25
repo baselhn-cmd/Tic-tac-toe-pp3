@@ -120,7 +120,13 @@ class Game:
 
        
     def check_draw(self):
-        pass
+        for cell in range(len(self.board.board)):
+            if self.board.board[cell].isdigit():
+                return False
+        print("Draw! No one wins")
+        return True
+
+    
     def play_turn(self):
         player = self.player[self.current_player_indix]
         seld.board.display_board()
