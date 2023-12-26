@@ -17,8 +17,16 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 
 - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Future Features](#possible-future-features)
+   ### Content
+
+   - Welcome Massage 
+
+   ![Welcome massage](assets/images/Tic-Tac1.png)
+
+   - Tic-Tac-Toe playes with 2 players
+
+   ![Players choose](assets/images/Tic.Tac2.png)
+
 
 - [Data Model](#data-model)
 
