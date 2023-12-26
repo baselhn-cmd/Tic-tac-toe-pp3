@@ -27,6 +27,14 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
    ![Players choose](assets/images/Tic.Tac2.png)
 
+   - The game start when the first player choose the nummber of cell
+
+   ![start game ](assets/images/Tic.Tac5.png)
+
+   - End game when any player win or draw
+
+   ![end game](assets/images/Tic.Tac7.png)
+
 
 - [Data Model](#data-model)
 
