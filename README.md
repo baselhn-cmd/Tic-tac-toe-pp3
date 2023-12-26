@@ -32,7 +32,12 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 ![Python syntax checker](assets/images/Python%20test.png)
 
     - [Browser Testing](#browser-testing)
+
     I test on Google Chrom browser and it´s working without problem
+
+    - And i testet on (https://www.pythonchecker.com/)
+
+![Python checker](assets/images/Tic.Tac8.png)
 
 - [Debugging](#debugging)
     - [Fixed bugs](#fixed-bugs)
@@ -43,7 +48,7 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 - [Credits](#credits)
     - [Data](#data)
     - [Code](#code)
-    
+
     **Template and Terminal**
 
     [Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template) provided by Code Institute 
