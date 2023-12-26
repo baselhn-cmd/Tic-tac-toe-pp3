@@ -13,7 +13,7 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 The following flowchart (created with [daigrams.net](https://app.diagrams.net/)) visualizes the planning process for this application.
 
-![Flowchart](assets/images/GetHungFlow1.1.png)
+![Flowchart](assets/images/Tic-Tac10.png)
 
 
 
@@ -46,7 +46,7 @@ The following flowchart (created with [daigrams.net](https://app.diagrams.net/))
 
 - The game working ver good no error.
 
-![Python syntax checker](assets/images/Python%20test.png)
+![Python syntax checker](assets/images/pythonvaliditor.png)
 
 ![Browser Testing](#browser-testing)
 
