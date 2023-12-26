@@ -11,7 +11,7 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 - [Planning](#planning)
 
-The following flowchart (created with [daigrams.net](https://app.diagrams.net/)) visualizes the planning process for this application.
+The following flowchart (created with [diagrams.net](https://app.diagrams.net/)) visualizes the planning process for this application.
 
 ![Flowchart](assets/images/Tic-Tac10.png)
 
