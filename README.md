@@ -4,7 +4,7 @@ Welcome to my simple implementation of the Tic-Tac-Toe game in Python!
 
 [Link to live site](https://tic-pp3-5d5ce1a76eff.herokuapp.com/)
 
-![Responsive mock-up]()
+![Responsive mock-up](assets/images/responsive.png)
 
 ## Index - Table of Contents
 
