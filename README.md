@@ -5,7 +5,7 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 [Link to live site](https://tic-pp3-5d5ce1a76eff.herokuapp.com/)
 
-![Responsive mock-up](assets/images/)
+![Responsive mock-up](assets/images/responsive.png)
 
 ## Index - Table of Contents
 
