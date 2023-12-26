@@ -5,7 +5,7 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 [Link to live site](https://tic-pp3-5d5ce1a76eff.herokuapp.com/)
 
-![Responsive mock-up](assets/images/responsive.png)
+![Responsive mock-up](assets/images/)
 
 ## Index - Table of Contents
 
@@ -22,7 +22,7 @@ The following flowchart (created with [daigrams.net](https://app.diagrams.net/))
 - [Features](#features)
    ### Content
 
-   - Welcome Massage 
+   - Welcome message
 
    ![Welcome massage](assets/images/Tic-Tac1.png)
 
@@ -48,7 +48,7 @@ The following flowchart (created with [daigrams.net](https://app.diagrams.net/))
 
 ![Python syntax checker](assets/images/Python%20test.png)
 
-    - [Browser Testing](#browser-testing)
+![Browser Testing](#browser-testing)
 
     I test on Google Chrom browser and it´s working without problem
 

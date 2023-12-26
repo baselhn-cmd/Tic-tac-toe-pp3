@@ -40,11 +40,14 @@ class menu:
 
 
 class board:
-  def __init__(self):
-      self.board = [str(i) for i in range(1,10)]
+   def __init__(self):
+       self.board = [str(i) for i in range(1,10)]
       
 
   def display_board(self):
+    """
+    Display the board
+    """
     for i in range(0,9, 3):
       print("|".join (self.board[i:i+3]))
       if i < 6:
