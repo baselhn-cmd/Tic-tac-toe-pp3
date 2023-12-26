@@ -53,13 +53,8 @@ The following flowchart (created with [diagrams.net](https://app.diagrams.net/))
     I test on Google Chrom browser and it´s working without problem
 
     - And i testet on (https://www.pythonchecker.com/)
-
-![Python checker](assets/images/Tic.Tac8.png)
-
-- [Debugging](#debugging)
-    - [Fixed bugs](#fixed-bugs)
-    - [Unfixed bugs](#unfixed-bugs)
-
+##
+#
 - [Deployment](#deployment)
 ### Deploy on Heroku
 This project was deployed with Heroku using Code Institute's mock terminal as provided with the Python Essentials template.
