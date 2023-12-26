@@ -26,6 +26,10 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 - HTML, CSS and JavaScript validation does not apply to this project. The template provided by Code Institute as provided to all students is assumed to be tested for the above.
 - Python Validator (https://www.online-ide.com/online_python_syntax_checker)
 
+- The game working ver good no error.
+![Python syntax checker](assets/images/Python%20test.png)
+
+
     - [Validator Testing](#validator-testing)
     - [Browser Testing](#browser-testing)
     - [Testing User Stories](#testing-user-stories-functionality)
