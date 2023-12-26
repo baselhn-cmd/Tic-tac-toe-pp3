@@ -61,7 +61,7 @@ class Board:
 
     def reset_board(self):
         self.board = [str(i) for i in range(1, 10)]
-
+        
 # Game class for managing the game logic
 class Game:
     def __init__(self):
