@@ -60,16 +60,34 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
     - [Unfixed bugs](#unfixed-bugs)
 
 - [Deployment](#deployment)
+### Deploy on Heroku
+This project was deployed with Heroku using Code Institute's mock terminal as provided with the Python Essentials template.
+
+To deploy:
+
+- Clone or fork this public repository
+- Create a Heroku account (if not already existing)
+- Create a new app with Heroku
+- I didn´t yoused any buildpacks
+
+- Allowing Heroku access to GitHub, link the new app to the relevant repository
+- Choose whether or not to enable **Automatic Deploys**. If enabled, the deployed app will update automatically with each push to GitHub
+- Click **Deploy**
 
 - [Credits](#credits)
-    - [Data](#data)
-    - [Code](#code)
+  - [Google translate]
+  - [W3Schools](https://www.w3schools.com/)
+  - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
+  - [Stack overflow](https://stackoverflow.com/)
+  - Code Institute Slack Channel
+- Special thanks to  mentor Dick Vlaanderen.
+    
 
     **Template and Terminal**
 
     [Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template) provided by Code Institute 
 
 
-    - [Styling](#styling)
+   
 
 
