@@ -11,7 +11,10 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
 - [Planning](#planning)
 
-- [Design](#design)
+The following flowchart (created with [daigrams.net](https://app.diagrams.net/)) visualizes the planning process for this application.
+
+![Flowchart](assets/images/GetHungFlow1.1.png)
+
 
 
 
@@ -35,8 +38,6 @@ The Tic-Tac-Toe game is a console-based implementation of the classic game. It i
 
    ![end game](assets/images/Tic.Tac7.png)
 
-
-- [Data Model](#data-model)
 
 - [Testing](#testing)
 - HTML, CSS and JavaScript validation does not apply to this project. The template provided by Code Institute as provided to all students is assumed to be tested for the above.
@@ -77,7 +78,6 @@ To deploy:
 - [Credits](#credits)
   - [Google translate]
   - [W3Schools](https://www.w3schools.com/)
-  - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
 - Special thanks to  mentor Dick Vlaanderen.
