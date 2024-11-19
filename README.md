@@ -3,7 +3,7 @@
 Welcome to my simple implementation of the Tic-Tac-Toe game in Python!
 The Tic-Tac-Toe game is a console-based implementation of the classic game. It involves two players who take turns marking spaces on a 3x3 grid. The game continues until one player wins by forming a line of three consecutive symbols (X or O) horizontally, vertically, or diagonally, or until the entire grid is filled, resulting in a draw.
 
-[Link to live site](https://tic-pp3-5d5ce1a76eff.herokuapp.com/)
+[Link to live site](https://tic-tacpp3-324984a6c0e3.herokuapp.com/)
 
 ![Responsive mock-up](assets/images/responsive.png)
 
